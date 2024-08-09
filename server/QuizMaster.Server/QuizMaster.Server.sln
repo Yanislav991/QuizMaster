@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster.Server.AdminService", "QuizMaster.Server.AdminService\QuizMaster.Server.AdminService.csproj", "{C047D643-7EAC-4E61-AB7F-3A32416FB379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster.Server.GameService", "QuizMaster.Server.GameService\QuizMaster.Server.GameService.csproj", "{470AD606-FD8E-4812-8B5C-2F198374E637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster.Server.NotificationService", "QuizMaster.Server.NotificationService\QuizMaster.Server.NotificationService.csproj", "{15C0B367-62F5-4127-A9AE-FBE5519C2A7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster.Server.QuestionService", "QuizMaster.Server.QuestionService\QuizMaster.Server.QuestionService.csproj", "{40C37298-0898-47DA-A694-AB2199501B32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster.Server.UserService", "QuizMaster.Server.UserService\QuizMaster.Server.UserService.csproj", "{C09BC98E-F63E-47FF-8EF4-515C2CB5B4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMaster.Server.ApiGateway", "QuizMaster.Server.ApiGateway\QuizMaster.Server.ApiGateway.csproj", "{EBB25BBB-CBF0-4788-A1E9-35101810254E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C047D643-7EAC-4E61-AB7F-3A32416FB379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C047D643-7EAC-4E61-AB7F-3A32416FB379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C047D643-7EAC-4E61-AB7F-3A32416FB379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C047D643-7EAC-4E61-AB7F-3A32416FB379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470AD606-FD8E-4812-8B5C-2F198374E637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470AD606-FD8E-4812-8B5C-2F198374E637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470AD606-FD8E-4812-8B5C-2F198374E637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470AD606-FD8E-4812-8B5C-2F198374E637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C0B367-62F5-4127-A9AE-FBE5519C2A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C0B367-62F5-4127-A9AE-FBE5519C2A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C0B367-62F5-4127-A9AE-FBE5519C2A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C0B367-62F5-4127-A9AE-FBE5519C2A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C37298-0898-47DA-A694-AB2199501B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C37298-0898-47DA-A694-AB2199501B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C37298-0898-47DA-A694-AB2199501B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C37298-0898-47DA-A694-AB2199501B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09BC98E-F63E-47FF-8EF4-515C2CB5B4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09BC98E-F63E-47FF-8EF4-515C2CB5B4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09BC98E-F63E-47FF-8EF4-515C2CB5B4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09BC98E-F63E-47FF-8EF4-515C2CB5B4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB25BBB-CBF0-4788-A1E9-35101810254E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB25BBB-CBF0-4788-A1E9-35101810254E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB25BBB-CBF0-4788-A1E9-35101810254E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB25BBB-CBF0-4788-A1E9-35101810254E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
